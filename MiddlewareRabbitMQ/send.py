@@ -9,6 +9,6 @@ channel = connection.channel()
 
 channel.queue_declare(queue='CPU temperature')
 
-channel.basic_publish(exchange='', routing_key='CPU temperature', body="40.3")
+channel.basic_publish(exchange='', routing_key='CPU temperature', body=str(temperature))
 
 connection.close()
