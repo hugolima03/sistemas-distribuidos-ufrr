@@ -7,7 +7,7 @@ channel = connection.channel()
 channel.queue_declare(queue='Fire detected!')
 
 def callback(ch, method, properties, temperature):
-    print("Sound alarm📢!")
+    print("Fire alert received")
     playsound('alarm.mp3')
 
 channel.basic_consume(queue='Fire detected!', auto_ack=True, on_message_callback=callback)
