@@ -25,19 +25,19 @@ Para a geração dos gráficos de tempo de execução, consumo de CPU e consumo 
 
 O comportamento assintótico do algoritmo do servidor resulta de uma série de 15 execuções, com os valores em mãos foi realizado então a média aritmética desses valores, o gráfico que representa o comportamento assintótico é mostrado a seguir.
 
-![Untitled](Relato%CC%81rio%20Atividade%20pra%CC%81tica%20Multithreading%2052e44e5ce0054a60a1f3aac144934035/Untitled.png)
+![Untitled](assets/Untitled.png)
 
 ## Consumo de CPU durante estresse do servidor
 
 O consumo do CPU é dado pela porcentagem que o processo do servidor ocupa no computador, para esta análise executamos o algoritmo para 10, 100 e 1000 conexões simultâneas, variando as entradas de 1, 512 e 1024 bytes. O gráfico de consumo de CPU é mostrado a seguir. Durante a execução do processo percebe-se que algumas vezes o consumo de CPU chega a 0, mesmo que várias conexões estejam enviando mensagens, vale ressaltar que a ferramenta top pode apresentar inconsistências para processos relativamente simples como o do servidor.
 
-![Untitled](Relato%CC%81rio%20Atividade%20pra%CC%81tica%20Multithreading%2052e44e5ce0054a60a1f3aac144934035/Untitled%201.png)
+![Untitled](assets/Untitled%201.png)
 
 ## Consumo de Memória
 
 O consumo de memória do processo servidor é dado em kilobytes. Para o máximo de conexões e tamanho de mensagem registrado o processo consumiu 11 megabytes. Semelhante à analise de consumo de CPU, realizamos os testes para 10, 100 e 1000 conexões simultâneas, variando as entradas de 1, 512 e 1024 bytes.
 
-![Untitled](Relato%CC%81rio%20Atividade%20pra%CC%81tica%20Multithreading%2052e44e5ce0054a60a1f3aac144934035/Untitled%202.png)
+![Untitled](assets/Untitled%202.png)
 
 ## Conclusão
 
