@@ -1,1 +1,19 @@
-70984 - [2023-05-05 16:29:14,213] : DEBUG -> Iniciando servidor...
+13010 - [2023-05-16 12:25:36,501] : DEBUG -> Iniciando servidor...
+13010 - [2023-05-16 12:25:45,568] : DEBUG -> Username: Hugo Autheticated
+13010 - [2023-05-16 12:25:45,576] : DEBUG -> [Hugo] INPUT: ls
+13010 - [2023-05-16 12:25:45,576] : DEBUG -> [Hugo] OUTPUT: Criando_uma_aplicação_de_controle_remoto_com_gRPC.ipynb
+README.md
+__pycache__
+client.py
+cmds.log
+remote_control.proto
+remote_control_pb2.py
+remote_control_pb2_grpc.py
+server.py
+
+13010 - [2023-05-16 12:25:50,383] : DEBUG -> Username: Hugo Autheticated
+13010 - [2023-05-16 12:25:50,391] : DEBUG -> [Hugo] INPUT: touch teste.txt
+13010 - [2023-05-16 12:25:50,391] : DEBUG -> [Hugo] OUTPUT: 
+13010 - [2023-05-16 12:25:55,648] : DEBUG -> Username: Hugo Autheticated
+13010 - [2023-05-16 12:25:55,656] : DEBUG -> [Hugo] INPUT: rm teste.txt
+13010 - [2023-05-16 12:25:55,656] : DEBUG -> [Hugo] OUTPUT: 
