@@ -10,3 +10,10 @@ Execute os receivers ANTES de disparar as mensagens.
 
 Execute o script que envia a temperatura a cada 5 segundos
 ```python3 send.py```
+
+A seguir temos algumas imagens que mostram o passo a passo da execução do projeto.
+
+![Iniciando RabbitMQ com Docker](./assets/docker.png)
+![CPU Receiver](./assets/cpu-receiver.png)
+![Fire Receiver](./assets/fire-receiver.png)
+![Sender](./assets/sender.png)
