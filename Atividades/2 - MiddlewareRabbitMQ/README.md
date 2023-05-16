@@ -1,18 +1,12 @@
-# Para executar a atividade
+# Atividade 2 - Hugo Lima Romão
 
-```
-# Iniciar o RabbitMQ server utilizando docker
-docker compose up
+A seguinte implementação utiliza uma imagem docker para fazer o setup do RabbitMQ mais facilmente. Basta executar ```docker compose up``` para iniciar o RabbitMQ com as portas e volumes devidamente configurados.
 
-# Instalar os pacotes
-pip install pika
-pip install psutil
-pip install playsound
+A seguir instale as dependencias da atividade.
+```pip install pika psutil playsound```
 
-# Executar os receivers
-python3 cpu-temp-receive.py
-python3 fire-event-receive.py
+Execute os receivers ANTES de disparar as mensagens.
+```python3 cpu-temp-receive.py && python3 fire-event-receive.py```
 
-# Executar o script que envia a temperatura a cada 5 segundos
-python3 send.py
-```
+Execute o script que envia a temperatura a cada 5 segundos
+```python3 send.py```
