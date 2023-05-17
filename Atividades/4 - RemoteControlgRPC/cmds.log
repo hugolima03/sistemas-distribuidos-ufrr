@@ -1,7 +1,7 @@
-13010 - [2023-05-16 12:25:36,501] : DEBUG -> Iniciando servidor...
-13010 - [2023-05-16 12:25:45,568] : DEBUG -> Username: Hugo Autheticated
-13010 - [2023-05-16 12:25:45,576] : DEBUG -> [Hugo] INPUT: ls
-13010 - [2023-05-16 12:25:45,576] : DEBUG -> [Hugo] OUTPUT: Criando_uma_aplicação_de_controle_remoto_com_gRPC.ipynb
+22661 - [2023-05-16 20:32:00,622] : DEBUG -> Iniciando servidor...
+22661 - [2023-05-16 20:32:05,855] : DEBUG -> Username: Hugo Autheticated
+22661 - [2023-05-16 20:32:05,863] : DEBUG -> [Hugo] INPUT: ls
+22661 - [2023-05-16 20:32:05,863] : DEBUG -> [Hugo] OUTPUT: Criando_uma_aplicação_de_controle_remoto_com_gRPC.ipynb
 README.md
 __pycache__
 client.py
@@ -11,9 +11,188 @@ remote_control_pb2.py
 remote_control_pb2_grpc.py
 server.py
 
-13010 - [2023-05-16 12:25:50,383] : DEBUG -> Username: Hugo Autheticated
-13010 - [2023-05-16 12:25:50,391] : DEBUG -> [Hugo] INPUT: touch teste.txt
-13010 - [2023-05-16 12:25:50,391] : DEBUG -> [Hugo] OUTPUT: 
-13010 - [2023-05-16 12:25:55,648] : DEBUG -> Username: Hugo Autheticated
-13010 - [2023-05-16 12:25:55,656] : DEBUG -> [Hugo] INPUT: rm teste.txt
-13010 - [2023-05-16 12:25:55,656] : DEBUG -> [Hugo] OUTPUT: 
+22661 - [2023-05-16 20:32:28,836] : DEBUG -> Username: Hugo Autheticated
+22661 - [2023-05-16 20:32:28,843] : DEBUG -> [Hugo] INPUT: ls
+22661 - [2023-05-16 20:32:28,844] : DEBUG -> [Hugo] OUTPUT: Criando_uma_aplicação_de_controle_remoto_com_gRPC.ipynb
+README.md
+__pycache__
+client.py
+cmds.log
+remote_control.proto
+remote_control_pb2.py
+remote_control_pb2_grpc.py
+server.py
+
+22661 - [2023-05-16 20:32:36,163] : DEBUG -> Username: Hugo Autheticated
+22661 - [2023-05-16 20:32:36,178] : DEBUG -> [Hugo] INPUT: touch teste.txt
+22661 - [2023-05-16 20:32:36,178] : DEBUG -> [Hugo] OUTPUT: 
+22661 - [2023-05-16 20:32:40,117] : DEBUG -> Username: Hugo Autheticated
+22661 - [2023-05-16 20:32:40,124] : DEBUG -> [Hugo] INPUT: ls
+22661 - [2023-05-16 20:32:40,124] : DEBUG -> [Hugo] OUTPUT: Criando_uma_aplicação_de_controle_remoto_com_gRPC.ipynb
+README.md
+__pycache__
+client.py
+cmds.log
+remote_control.proto
+remote_control_pb2.py
+remote_control_pb2_grpc.py
+server.py
+teste.txt
+
+22661 - [2023-05-16 20:32:46,774] : DEBUG -> Username: Hugo Autheticated
+22661 - [2023-05-16 20:32:46,782] : DEBUG -> [Hugo] INPUT: rm teste.txt
+22661 - [2023-05-16 20:32:46,783] : DEBUG -> [Hugo] OUTPUT: 
+22661 - [2023-05-16 20:32:50,369] : DEBUG -> Username: Hugo Autheticated
+22661 - [2023-05-16 20:32:50,385] : DEBUG -> [Hugo] INPUT: cd ..
+22661 - [2023-05-16 20:32:50,385] : DEBUG -> [Hugo] OUTPUT: 
+22661 - [2023-05-16 20:32:51,853] : DEBUG -> Username: Hugo Autheticated
+22661 - [2023-05-16 20:32:51,860] : DEBUG -> [Hugo] INPUT: ls
+22661 - [2023-05-16 20:32:51,860] : DEBUG -> [Hugo] OUTPUT: Criando_uma_aplicação_de_controle_remoto_com_gRPC.ipynb
+README.md
+__pycache__
+client.py
+cmds.log
+remote_control.proto
+remote_control_pb2.py
+remote_control_pb2_grpc.py
+server.py
+
+22661 - [2023-05-16 20:33:06,002] : DEBUG -> Username: Hugo Autheticated
+22661 - [2023-05-16 20:33:16,595] : DEBUG -> Username: Hugo Autheticated
+22661 - [2023-05-16 20:33:16,603] : DEBUG -> [Hugo] INPUT: ls
+22661 - [2023-05-16 20:33:16,603] : DEBUG -> [Hugo] OUTPUT: Criando_uma_aplicação_de_controle_remoto_com_gRPC.ipynb
+README.md
+__pycache__
+client.py
+cmds.log
+remote_control.proto
+remote_control_pb2.py
+remote_control_pb2_grpc.py
+server.py
+
+22661 - [2023-05-16 20:33:19,927] : DEBUG -> Username: Hugo Autheticated
+22661 - [2023-05-16 20:33:19,936] : DEBUG -> [Hugo] INPUT: pwd
+22661 - [2023-05-16 20:33:19,937] : DEBUG -> [Hugo] OUTPUT: /Users/hugolima/GitHub/sistemas-distribuidos-ufrr/Atividades/4 - RemoteControlgRPC
+
+22661 - [2023-05-16 20:34:36,947] : DEBUG -> Username: Hugo Autheticated
+22661 - [2023-05-16 20:34:36,957] : DEBUG -> [Hugo] INPUT: ls
+22661 - [2023-05-16 20:34:36,958] : DEBUG -> [Hugo] OUTPUT: Criando_uma_aplicação_de_controle_remoto_com_gRPC.ipynb
+README.md
+__pycache__
+client.py
+cmds.log
+remote_control.proto
+remote_control_pb2.py
+remote_control_pb2_grpc.py
+server.py
+
+22661 - [2023-05-16 20:34:38,940] : DEBUG -> Username: Hugo Autheticated
+22661 - [2023-05-16 20:34:38,948] : DEBUG -> [Hugo] INPUT: pwd
+22661 - [2023-05-16 20:34:38,948] : DEBUG -> [Hugo] OUTPUT: /Users/hugolima/GitHub/sistemas-distribuidos-ufrr/Atividades/4 - RemoteControlgRPC
+
+22661 - [2023-05-16 20:34:43,563] : DEBUG -> Username: Hugo Autheticated
+22661 - [2023-05-16 20:34:43,572] : DEBUG -> [Hugo] INPUT: touch teste.txt
+22661 - [2023-05-16 20:34:43,572] : DEBUG -> [Hugo] OUTPUT: 
+22661 - [2023-05-16 20:34:47,157] : DEBUG -> Username: Hugo Autheticated
+22661 - [2023-05-16 20:34:47,166] : DEBUG -> [Hugo] INPUT: rm teste.txt
+22661 - [2023-05-16 20:34:47,167] : DEBUG -> [Hugo] OUTPUT: 
+22661 - [2023-05-16 20:34:57,702] : DEBUG -> Username: Hugo Autheticated
+22661 - [2023-05-16 20:34:57,710] : DEBUG -> [Hugo] INPUT: touch teste.txt
+22661 - [2023-05-16 20:34:57,711] : DEBUG -> [Hugo] OUTPUT: 
+22661 - [2023-05-16 20:35:05,107] : DEBUG -> Username: Hugo Autheticated
+22661 - [2023-05-16 20:35:05,123] : DEBUG -> [Hugo] INPUT: mv teste.txt outro.txt
+22661 - [2023-05-16 20:35:05,123] : DEBUG -> [Hugo] OUTPUT: 
+22661 - [2023-05-16 20:35:06,558] : DEBUG -> Username: Hugo Autheticated
+22661 - [2023-05-16 20:35:06,566] : DEBUG -> [Hugo] INPUT: ls
+22661 - [2023-05-16 20:35:06,566] : DEBUG -> [Hugo] OUTPUT: Criando_uma_aplicação_de_controle_remoto_com_gRPC.ipynb
+README.md
+__pycache__
+client.py
+cmds.log
+outro.txt
+remote_control.proto
+remote_control_pb2.py
+remote_control_pb2_grpc.py
+server.py
+
+22661 - [2023-05-16 20:35:13,744] : DEBUG -> Username: Hugo Autheticated
+22661 - [2023-05-16 20:35:13,751] : DEBUG -> [Hugo] INPUT: rm outro.txt
+22661 - [2023-05-16 20:35:13,752] : DEBUG -> [Hugo] OUTPUT: 
+22661 - [2023-05-16 20:35:18,422] : DEBUG -> Username: Hugo Autheticated
+22661 - [2023-05-16 20:35:18,431] : DEBUG -> [Hugo] INPUT: mkdir diretorioNovo
+22661 - [2023-05-16 20:35:18,431] : DEBUG -> [Hugo] OUTPUT: 
+22661 - [2023-05-16 20:35:19,174] : DEBUG -> Username: Hugo Autheticated
+22661 - [2023-05-16 20:35:19,186] : DEBUG -> [Hugo] INPUT: ls
+22661 - [2023-05-16 20:35:19,186] : DEBUG -> [Hugo] OUTPUT: Criando_uma_aplicação_de_controle_remoto_com_gRPC.ipynb
+README.md
+__pycache__
+client.py
+cmds.log
+diretorioNovo
+remote_control.proto
+remote_control_pb2.py
+remote_control_pb2_grpc.py
+server.py
+
+22661 - [2023-05-16 20:35:26,224] : DEBUG -> Username: Hugo Autheticated
+22661 - [2023-05-16 20:35:26,232] : DEBUG -> [Hugo] INPUT: rm -rf diretorioNovo
+22661 - [2023-05-16 20:35:26,232] : DEBUG -> [Hugo] OUTPUT: 
+22661 - [2023-05-16 20:35:27,877] : DEBUG -> Username: Hugo Autheticated
+22661 - [2023-05-16 20:35:27,885] : DEBUG -> [Hugo] INPUT: ls
+22661 - [2023-05-16 20:35:27,886] : DEBUG -> [Hugo] OUTPUT: Criando_uma_aplicação_de_controle_remoto_com_gRPC.ipynb
+README.md
+__pycache__
+client.py
+cmds.log
+remote_control.proto
+remote_control_pb2.py
+remote_control_pb2_grpc.py
+server.py
+
+22661 - [2023-05-16 20:35:35,152] : DEBUG -> Username: Hugo Autheticated
+22661 - [2023-05-16 20:35:35,161] : DEBUG -> [Hugo] INPUT: cat client.py
+22661 - [2023-05-16 20:35:35,161] : DEBUG -> [Hugo] OUTPUT: import grpc
+import remote_control_pb2
+import remote_control_pb2_grpc
+
+# Comandos testados
+# ls
+# pwd
+# touch
+# rm
+# mkdir
+# mv
+# cat
+
+def run():
+    with grpc.insecure_channel("localhost:50051") as channel:
+        name = input('Digite seu nome\n')
+        passwd = input('Digite sua senha\n')
+        while True:
+            cmd = input('Enter a command to server:\n')
+            stub = remote_control_pb2_grpc.RemoteControlStub(channel)
+            response = stub.ExecCmd(remote_control_pb2.CmdRequest(cmd=cmd, client=name, passwd=passwd))
+            if (int(response.error) == 1):
+                print('Senha ou usuário inválidos')
+                break
+            print(f'[localhost:50051] OUTPUT: \n{response.cmd}')
+
+if __name__ == "__main__":
+    run()
+22661 - [2023-05-16 20:35:41,078] : DEBUG -> Username: Hugo Autheticated
+22661 - [2023-05-16 20:35:41,089] : ERROR -> Exception calling application: [Errno 2] No such file or directory: 'exit'
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/grpc/_server.py", line 494, in _call_behavior
+    response_or_iterator = behavior(argument, context)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/hugolima/GitHub/sistemas-distribuidos-ufrr/Atividades/4 - RemoteControlgRPC/server.py", line 27, in ExecCmd
+    result = subprocess.run(request.cmd.split(), capture_output=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 548, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1024, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 1901, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'exit'
