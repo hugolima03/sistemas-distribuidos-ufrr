@@ -39,6 +39,14 @@ O consumo de memória do processo servidor é dado em kilobytes. Para o máximo 
 
 ![Untitled](assets/Untitled%202.png)
 
+## Teste com número de threads muito aumentado
+
+Nesta segunta sequência de testes a quantidades de Threads criada pelo cliente é aumentada de forma discrepante quando comparada com os testes anteriores, utilizando aproximadamente 10.000 threads por instância. Diante das imagens abaixo, perbece-se como com apenas uma instância do código cliente consegue utilizar quase todo o recurso de CPU do computador, simulando como um ataque DDOS funcionaria.
+
+![Untitled](assets/1.png)
+![Untitled](assets/2.png)
+![Untitled](assets/3.png)
+
 ## Conclusão
 
 A utilização de Threads que separam os contextos de cada módulo possibilitou uma ótima performance para esta aplicação, permitindo que não haja bloqueios de execução mesmo para uma grande quantidade de conexões e de processamento de mensagens. Vemos isso principalmente quando aumentamos a quantidade de conexões, o consumo de recursos aumenta quase que linearmente para algumas situações. Claro que está é uma análise feita para um quantidade relativamente pequena de teste, cabe portanto, uma análise com entradas e conexões maiores para compreensão de comportamentos que possam estar ocultos desta análise.

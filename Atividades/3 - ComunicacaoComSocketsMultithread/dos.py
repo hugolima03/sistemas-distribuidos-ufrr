@@ -1,11 +1,9 @@
 import os
-import time
 import socket
-import random
 import threading
 
 SERVER_ADDRESS = "localhost"
-SERVER_PORT = 12345
+SERVER_PORT = 5055
 
 pid = os.getpid()
 print('Número do processo', pid)
@@ -27,24 +25,25 @@ class bcolors:
     UNDERLINE = '\033[4m'
 
 
+def receibe_message(client_socket):
+    while True:
+        msg = client_socket.recv(2048).decode('utf-8')
+        print(msg+'\n')
+
+
 def send_message(client_socket):
-    for i in range(10):
+    while True:
+        print('enviou')
         message = _1024ByteMessage
         client_socket.send(message)
-        time.sleep(random.random() * 5)
-    print('Stopping conections')
-    client_socket.send('quit'.encode())
-
-
-def start_client():
-    client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    client_socket.connect((SERVER_ADDRESS, SERVER_PORT))
-
-    send_thread = threading.Thread(target=send_message, args=(client_socket,))
-    send_thread.start()
 
 
 if __name__ == '__main__':
-    n = int(input('Número de conexões simultaneas: '))
-    for i in range(int(n)):
-        start_client()
+    client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    client_socket.connect((SERVER_ADDRESS, SERVER_PORT))
+
+    for i in range(1, 10001):
+        sender_thread = threading.Thread(target=send_message, args=(client_socket,))
+        receiver_thread = threading.Thread(target=receibe_message, args=(client_socket,))
+        sender_thread.start()
+        receiver_thread.start()

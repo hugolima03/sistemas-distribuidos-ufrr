@@ -6,7 +6,7 @@ pid = os.getpid()
 print('Número do processo', pid)
 # Endereço e porta do servidor
 SERVER_ADDRESS = "localhost"
-SERVER_PORT = 12345
+SERVER_PORT = 5055
 
 # Lista de clientes conectados
 clients = []
