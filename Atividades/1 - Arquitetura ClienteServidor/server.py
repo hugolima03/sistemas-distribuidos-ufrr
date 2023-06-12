@@ -4,7 +4,7 @@ from cryptography.fernet import Fernet
 
 HOST = ''
 PORT = 5058
-SECRET_KEY = b'ZmDfcTF7_60GrrY167zsiPd67pEvs0aGOv2oasOM1Pg='
+SECRET_KEY = b'ZmDfcTF7_60GrrY167zsiPd67pEvs0aGOv2oasOM1Pg=' # Critografia simétrica
 
 def handle_connection(conn, addr):
     fernet = Fernet(SECRET_KEY)

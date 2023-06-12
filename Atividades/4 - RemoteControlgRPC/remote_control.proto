@@ -2,16 +2,19 @@ syntax = "proto3";
 
 package remote_control;
 
+// The greeter service definition.
 service RemoteControl {
   rpc ExecCmd (CmdRequest) returns (CmdResponse) {}
 }
 
+// The request message containing the command info.
 message CmdRequest {
   string cmd = 1;
   string client = 2;
   string passwd = 3;
 }
 
+// The response message containing the output
 message CmdResponse {
   string cmd = 1;
   string error = 2;

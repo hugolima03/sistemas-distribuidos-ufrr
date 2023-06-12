@@ -2,7 +2,7 @@
 
 ATENÇÃO: Para mais praticidade utilize o jupyter notebook para executar os códigos e obter acesso as anotações. Ex: ```jupyter notebook .```
 
-Nesta atividade criamos uma aplicação de controle remoto de uma máquina Linux. O objetivo é permitir que o cliente envie comandos em formato de string para o servidor, que irá executar esses comandos em uma máquina Linux e retornar o resultado para o cliente.
+Nesta atividade criamos uma aplicação de controle remoto de uma máquina Linux. O objetivo é permitir que o cliente envie comandos em formato de string para o servidor, que irá executar esses **comandos** em uma máquina Linux e retornar o **resultado** para o cliente.
 
 O primeiro passo é instalar os pacotes utilizados para comunicação RPC.
 ```pip install grpcio grpcio-tools```

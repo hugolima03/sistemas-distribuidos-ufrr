@@ -3,7 +3,7 @@ import socket
 import threading
 
 SERVER_ADDRESS = "localhost"
-SERVER_PORT = 5055
+SERVER_PORT = 12345
 
 pid = os.getpid()
 print('Número do processo', pid)

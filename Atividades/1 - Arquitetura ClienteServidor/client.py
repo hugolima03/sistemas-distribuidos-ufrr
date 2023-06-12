@@ -20,3 +20,7 @@ s.sendall(mensagem_codificada)
 data = s.recv(1024)
 print(f'Resposta do servidor: {data.decode()}')
 s.close()
+
+# Limitações
+# 
+# Alguns caracteres de acentuação não são reconhecidos pelo servidor. 

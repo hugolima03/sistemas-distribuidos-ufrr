@@ -18,13 +18,3 @@ print(' [*] Waiting for messages on cpu temp channel. To exit press CTRL+C')
 channel.start_consuming()
 
 connection.close()
-
-if __name__ == '__main__':
-    try:
-        main()
-    except KeyboardInterrupt:
-        print('Interrupted')
-        try:
-            sys.exit(0)
-        except SystemExit:
-            os._exit(0)
